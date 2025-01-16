@@ -1,12 +1,19 @@
-import Image from "next/image";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
 
+
+// import About from "./components/about/Page";
+import LandingPage from "./components/landing_page/page";
+import Products from "./components/Product Listing/page";
+import ShoppingCart from "./components/Shopping Cart/page";
+
+// import Cart from "./components/Shopping baskets/page";
 export default function Home() {
   return (
-   <div className="md:h-[1394px] md:w-[1856px] bg-[#2A254B] md:py-24 py-3">
-<Header/>
-<Hero />
-  </div>
+   <div>
+ <LandingPage/> 
+ {/* <Products/> */}
+ {/* <Cart/> */}
+ {/* <About/> */}
+{/* <ShoppingCart/> */}
+   </div>
   );
 }
